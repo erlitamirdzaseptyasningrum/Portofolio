@@ -1,50 +1,54 @@
 /* Reset */
-body, h1, h2, p, ul {
+body, h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
 }
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #f9f9f9;
+  background: #fdfdfd;
   color: #333;
 }
 
 /* Header */
 header {
-  background: #222;
+  background: #2c3e50;
   color: #fff;
   text-align: center;
   padding: 2rem 1rem;
 }
-header nav a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
+header h1 {
+  margin-bottom: 0.5rem;
 }
-header nav a:hover {
-  text-decoration: underline;
+header p {
+  font-style: italic;
 }
 
-/* Section */
+/* Sections */
 section {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 section h2 {
+  border-bottom: 2px solid #2c3e50;
   margin-bottom: 1rem;
-  color: #444;
+  padding-bottom: 0.5rem;
+  color: #2c3e50;
 }
-ul {
-  list-style: square;
+section ul {
   margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+section ul li {
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
 footer {
   text-align: center;
+  background: #eee;
   padding: 1rem;
   margin-top: 2rem;
-  background: #eee;
+  font-size: 0.9rem;
 }
