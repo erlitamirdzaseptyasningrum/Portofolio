@@ -1,0 +1,50 @@
+/* Reset */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+section h2 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+ul {
+  list-style: square;
+  margin-left: 1.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: #eee;
+}
